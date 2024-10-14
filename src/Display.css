@@ -1,0 +1,18 @@
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 200px; /* Adjust width as needed */
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #3498db; /* Change border color on focus */
+}
